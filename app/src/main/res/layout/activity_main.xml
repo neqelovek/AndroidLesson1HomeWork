@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/text_View1"
+        android:id="@+id/text_view1"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="#0037FF"
@@ -18,16 +18,18 @@
         android:textSize="30sp" />
 
     <EditText
-        android:id="@+id/editText_equal1"
+        android:id="@+id/edit_text_equal1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number" />
+        android:inputType="number"
+        android:hint="@string/number"/>
 
     <EditText
-        android:id="@+id/editText_equal2"
+        android:id="@+id/edit_text_equal2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number" />
+        android:inputType="number"
+        android:hint="@string/number"/>
 
     <Button
         android:id="@+id/button_for_equals"
@@ -36,7 +38,7 @@
         android:text="@string/Equality" />
 
     <TextView
-        android:id="@+id/textView_for_equals"
+        android:id="@+id/text_view_for_equals"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="cursive"
@@ -55,7 +57,7 @@
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <TextView
-        android:id="@+id/textView_for_switch"
+        android:id="@+id/text_view_for_switch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="serif"
@@ -65,7 +67,7 @@
         android:textSize="25sp" />
 
     <CheckBox
-        android:id="@+id/name_chekBox1"
+        android:id="@+id/name_chek_box1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
@@ -75,7 +77,7 @@
         android:textSize="15sp" />
 
     <CheckBox
-        android:id="@+id/name_chekBox2"
+        android:id="@+id/name_chek_box2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
@@ -85,7 +87,7 @@
         android:textSize="15sp" />
 
     <ToggleButton
-        android:id="@+id/name_toggleButton"
+        android:id="@+id/name_toggle_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:nestedScrollingEnabled="true"
@@ -94,7 +96,7 @@
         android:textStyle="italic" />
 
     <TextView
-        android:id="@+id/textView_for_toggleButton"
+        android:id="@+id/text_view_for_toggle_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
