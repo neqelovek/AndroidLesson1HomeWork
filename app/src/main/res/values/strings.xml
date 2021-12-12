@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">Android Lesson1</string>
+    <string name="app_name">Android LessonOne!</string>
+    <string name="helloWorld">Hello World!</string>
+    <string name="Equality">Равно?</string>
+    <string name="answer" />
+    <string name="alarm">Alarm</string>
+    <string name="alarm_on">Alarm on!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="press_me">Press Me</string>
+    <string name="enter_the_text">Enter the text:</string>
+    <string name="enterDetails"> Please enter your details</string>
+    <string name="name">Name:</string>
+    <string name="number">Number:</string>
+    <string name="age">Age:</string>
+    <string name="number_phone">Number phone:</string>
+    <string name="email">Email:</string>
+    <string name="date">Date:</string>
+    <string name="result">Result</string>
+    <string name="password">Password</string>
 </resources>
