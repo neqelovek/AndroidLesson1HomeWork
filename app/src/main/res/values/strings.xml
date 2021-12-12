@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Android LessonOne!</string>
     <string name="helloWorld">Hello World!</string>
-    <string name="alarm">Alarm</string>
     <string name="Equality">Равно?</string>
     <string name="answer" />
+    <string name="alarm">Alarm</string>
+    <string name="alarm_on">Alarm on!</string>
 </resources>

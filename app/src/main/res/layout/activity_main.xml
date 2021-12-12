@@ -47,6 +47,27 @@
         android:gravity="center"
         />
 
+    <Switch
+        android:id="@+id/name_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alarm"
+        android:textColor="#4A3177"
+        android:textSize="25sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <TextView
+        android:id="@+id/textView_for_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text=""
+        android:fontFamily="serif"
+        android:textColor="#CDDC39"
+        android:gravity="center"/>
+
+
+
 
 
 </LinearLayout>
